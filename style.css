@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container horizontally */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the title */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the underline */
+.underline {
+    width: 100px;
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto;
+}
+
+/* Style the testimonials section */
+.reviews {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the person's image */
+#person-img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Style the author's name */
+#author {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Style the job title */
+#job {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Style the information text */
+#info {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Style the previous and next buttons */
+.btn-container {
+    margin-top: 20px;
+}
+
+.prev-btn,
+.next-btn {
+    background-color: #ee7115;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    
+    background-color: #7d87de;
+}
+.fa-chevron-left:before {
+    content: "\f053";
+    margin-right: 4px;
+}
